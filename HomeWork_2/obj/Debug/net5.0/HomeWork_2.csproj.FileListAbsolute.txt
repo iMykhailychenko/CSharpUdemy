@@ -1,0 +1,14 @@
+/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/bin/Debug/net5.0/HomeWork_2.deps.json
+/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/bin/Debug/net5.0/HomeWork_2.runtimeconfig.json
+/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/bin/Debug/net5.0/HomeWork_2.runtimeconfig.dev.json
+/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/bin/Debug/net5.0/HomeWork_2.dll
+/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/bin/Debug/net5.0/ref/HomeWork_2.dll
+/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/bin/Debug/net5.0/HomeWork_2.pdb
+/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/obj/Debug/net5.0/HomeWork_2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/obj/Debug/net5.0/HomeWork_2.AssemblyInfoInputs.cache
+/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/obj/Debug/net5.0/HomeWork_2.AssemblyInfo.cs
+/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/obj/Debug/net5.0/HomeWork_2.csproj.CoreCompileInputs.cache
+/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/obj/Debug/net5.0/HomeWork_2.dll
+/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/obj/Debug/net5.0/ref/HomeWork_2.dll
+/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/obj/Debug/net5.0/HomeWork_2.pdb
+/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/obj/Debug/net5.0/HomeWork_2.genruntimeconfig.cache

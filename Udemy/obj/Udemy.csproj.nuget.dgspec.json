@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/igormikhaylichenko/Documents/CSharp/Udemy/Udemy/Udemy.csproj": {}
+    "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/Udemy/Udemy.csproj": {}
   },
   "projects": {
-    "/Users/igormikhaylichenko/Documents/CSharp/Udemy/Udemy/Udemy.csproj": {
+    "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/Udemy/Udemy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/igormikhaylichenko/Documents/CSharp/Udemy/Udemy/Udemy.csproj",
+        "projectUniqueName": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/Udemy/Udemy.csproj",
         "projectName": "Udemy",
-        "projectPath": "/Users/igormikhaylichenko/Documents/CSharp/Udemy/Udemy/Udemy.csproj",
+        "projectPath": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/Udemy/Udemy.csproj",
         "packagesPath": "/Users/igormikhaylichenko/.nuget/packages/",
-        "outputPath": "/Users/igormikhaylichenko/Documents/CSharp/Udemy/Udemy/obj/",
+        "outputPath": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/Udemy/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/igormikhaylichenko/.config/NuGet/NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

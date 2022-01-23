@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/Udemy/Udemy.csproj",
-      "projectName": "Udemy",
-      "projectPath": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/Udemy/Udemy.csproj",
+      "projectUniqueName": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/HomeWork_2.csproj",
+      "projectName": "HomeWork_2",
+      "projectPath": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/HomeWork_2.csproj",
       "packagesPath": "/Users/igormikhaylichenko/.nuget/packages/",
-      "outputPath": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/Udemy/obj/",
+      "outputPath": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/igormikhaylichenko/.config/NuGet/NuGet.Config"

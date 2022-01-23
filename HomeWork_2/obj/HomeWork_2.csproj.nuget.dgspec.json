@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_1/HomeWork_1.csproj": {}
+    "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/HomeWork_2.csproj": {}
   },
   "projects": {
-    "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_1/HomeWork_1.csproj": {
+    "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/HomeWork_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_1/HomeWork_1.csproj",
-        "projectName": "HomeWork_1",
-        "projectPath": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_1/HomeWork_1.csproj",
+        "projectUniqueName": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/HomeWork_2.csproj",
+        "projectName": "HomeWork_2",
+        "projectPath": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/HomeWork_2.csproj",
         "packagesPath": "/Users/igormikhaylichenko/.nuget/packages/",
-        "outputPath": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_1/obj/",
+        "outputPath": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/igormikhaylichenko/.config/NuGet/NuGet.Config"

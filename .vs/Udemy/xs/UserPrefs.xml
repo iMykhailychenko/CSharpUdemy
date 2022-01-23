@@ -1,15 +1,17 @@
-﻿<Properties StartupConfiguration="{1304C98C-F64A-4B3E-8E42-0AB43A8D8BA4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HomeWork_1/Program.cs">
+﻿<Properties StartupConfiguration="{3B6FF3C8-E169-4BA5-B952-2D0502904B89}|Default">
+  <MonoDevelop.Ide.ItemProperties.HomeWork__2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HomeWork_2/PayField.cs">
     <Files>
-      <File FileName="Udemy/Program.cs" Line="5" Column="5" />
-      <File FileName="HomeWork_1/Program.cs" Line="12" Column="1" />
+      <File FileName="HomeWork_2/Program.cs" Line="10" Column="57" />
+      <File FileName="HomeWork_2/PayField.cs" Line="25" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Udemy" expanded="True">
-            <Node name="HomeWork_1" expanded="True">
-              <Node name="Program.cs" selected="True" />
+            <Node name="HomeWork_1" expanded="True" />
+            <Node name="HomeWork_2" expanded="True">
+              <Node name="PayField.cs" selected="True" />
             </Node>
             <Node name="Udemy" expanded="True" />
           </Node>
@@ -18,7 +20,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Udemy PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.HomeWork__1 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.HomeWork__1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

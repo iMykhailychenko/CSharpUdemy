@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/igormikhaylichenko/Documents/CSharp/Udemy/HomeWork_1/HomeWork_1.csproj",
+      "projectUniqueName": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_1/HomeWork_1.csproj",
       "projectName": "HomeWork_1",
-      "projectPath": "/Users/igormikhaylichenko/Documents/CSharp/Udemy/HomeWork_1/HomeWork_1.csproj",
+      "projectPath": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_1/HomeWork_1.csproj",
       "packagesPath": "/Users/igormikhaylichenko/.nuget/packages/",
-      "outputPath": "/Users/igormikhaylichenko/Documents/CSharp/Udemy/HomeWork_1/obj/",
+      "outputPath": "/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/igormikhaylichenko/.config/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }
