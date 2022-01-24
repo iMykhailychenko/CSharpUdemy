@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace HomeWork_2
 {
@@ -18,50 +17,59 @@ namespace HomeWork_2
             Rows = rows;
         }
 
-        public void Render(Dictionary<int, int> dots)
+        public void Render(int[][] dots)
         {
             Console.Clear();
 
-            List<string[]> table = GetFileldsList(dots);
+            string[][] table = GetFileldsList(dots);
 
-            foreach (string[] row in table)
+            for (int i = 0; i < table.Length; i++)
             {
-                int length = row.Length;
-                for(int i = 0; i < length; i++)
+                string[] row = table[i];
+                int length = row.Length - 1;
+
+                for(int j = 0; j <= length; j++)
                 {
-                    if(i == length - 1)
+                    if(i == length)
                     {
-                        Console.Write(i);
+                        Console.WriteLine(row[j]);
                     }
                     else
                     {
-                        Console.WriteLine(i);
+                        Console.Write(row[j]);
                     }
                 }
             }
         }
 
-        private List<string[]> GetFileldsList(Dictionary<int, int> dots)
+        private string[][] GetFileldsList(int[][] dots)
         {
-            var value = new List<string[]>(Cols);
+            string[][] list = new string[Rows][];
+
             for(int i = 0; i < Rows; i++)
             {
+                string[] sublist = new string[Cols];
+
                 for(int j = 0; j < Cols; j++)
                 {
-                    bool hasCol = dots.TryGetValue(i, out int dotsRow);
+                    Console.WriteLine(i);
+                    bool hasCol = Array.IndexOf(dots[i], i) > -1;
+                    bool hasRow = Array.IndexOf(dots[i], j) > -1;
 
-                    if (hasCol && dotsRow == j)
+                    if (hasCol && hasRow)
                     {
-                        value[i][j] = FilledCell;
+                        sublist[j] = FilledCell;
                     }
                     else
                     {
-                        value[i][j] = EmptyCell;
+                        sublist[j] = EmptyCell;
                     }
                 }
+
+                list[i] = sublist;
             }
 
-            return value;
+            return list;
         }
     }
 }

@@ -1,17 +1,16 @@
-﻿<Properties StartupConfiguration="{3B6FF3C8-E169-4BA5-B952-2D0502904B89}|Default">
+﻿<Properties StartupConfiguration="{B0CDEEFF-CFC2-4CDB-BD7E-7B1C836BBEEB}|Default">
   <MonoDevelop.Ide.ItemProperties.HomeWork__2 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HomeWork_2/PayField.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HomeWork_2/Program.cs">
     <Files>
-      <File FileName="HomeWork_2/Program.cs" Line="10" Column="57" />
-      <File FileName="HomeWork_2/PayField.cs" Line="25" Column="44" />
+      <File FileName="HomeWork_2/PayField.cs" Line="1" Column="1" />
+      <File FileName="HomeWork_2/Program.cs" Line="36" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Udemy" expanded="True">
-            <Node name="HomeWork_1" expanded="True" />
             <Node name="HomeWork_2" expanded="True">
-              <Node name="PayField.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
             <Node name="Udemy" expanded="True" />
           </Node>
@@ -24,7 +23,11 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/Program.cs" relfile="HomeWork_2/Program.cs" line="14" column="13" />
+      <Breakpoint file="/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/PayField.cs" relfile="HomeWork_2/PayField.cs" line="25" column="13" />
+      <Breakpoint file="/Users/igormikhaylichenko/Documents/CSharp/CSharpUdemy/HomeWork_2/PayField.cs" relfile="HomeWork_2/PayField.cs" line="52" column="21" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

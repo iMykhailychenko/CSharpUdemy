@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace HomeWork_2
 {
@@ -10,7 +9,12 @@ namespace HomeWork_2
             int size = ReadInt("Enter size: ");
             PayField field = new PayField(size, size / 2);
 
-            Dictionary<int, int> activePoints = new Dictionary<int, int>() { { 1, 1 } };
+            int[][] activePoints = new int[4][];
+            activePoints[0] = new int[] { 3, 4 };
+            activePoints[1] = new int[] { 4, 4 };
+            activePoints[2] = new int[] { 5, 4 };
+            activePoints[3] = new int[] { 5, 3 };
+
             field.Render(activePoints);
         }
 
