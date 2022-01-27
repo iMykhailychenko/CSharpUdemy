@@ -5,71 +5,71 @@ namespace HomeWork_2
 
     public class PayField
     {
-        private string EmptyCell = " . ";
-        private string FilledCell = " * ";
-
         public int Cols { get; private set; }
         public int Rows { get; private set; }
+        public Cell[] Dots { get; set; }
 
-        public PayField(int cols, int rows)
+        public PayField(int cols, int rows, Cell[] dots)
         {
             Cols = cols;
             Rows = rows;
+            Dots = dots;
         }
 
-        public void Render(int[][] dots)
+        public void Render()
         {
             Console.Clear();
 
-            string[][] table = GetFileldsList(dots);
+            Cell[][] table = GetFileldsList();
 
             for (int i = 0; i < table.Length; i++)
             {
-                string[] row = table[i];
+
+                Cell[] row = table[i];
                 int length = row.Length - 1;
 
                 for(int j = 0; j <= length; j++)
                 {
-                    if(i == length)
-                    {
-                        Console.WriteLine(row[j]);
-                    }
-                    else
-                    {
-                        Console.Write(row[j]);
-                    }
+                    row[j].Render(j == length);
                 }
+
             }
         }
 
-        private string[][] GetFileldsList(int[][] dots)
+        private Cell[][] GetFileldsList()
         {
-            string[][] list = new string[Rows][];
+            Cell[][] list = new Cell[Rows][];
 
             for(int i = 0; i < Rows; i++)
             {
-                string[] sublist = new string[Cols];
+                Cell[] sublist = new Cell[Cols];
 
-                for(int j = 0; j < Cols; j++)
+                for (int j = 0; j < Cols; j++)
                 {
-                    Console.WriteLine(i);
-                    bool hasCol = Array.IndexOf(dots[i], i) > -1;
-                    bool hasRow = Array.IndexOf(dots[i], j) > -1;
-
-                    if (hasCol && hasRow)
-                    {
-                        sublist[j] = FilledCell;
-                    }
-                    else
-                    {
-                        sublist[j] = EmptyCell;
-                    }
+                    sublist[j] = new Cell(i, j);
+                    sublist[j].IsEmpty = !FindDots(i, j);
                 }
 
                 list[i] = sublist;
             }
 
             return list;
+        }
+
+        private bool FindDots(int row, int cell)
+        {
+            for(int i = 0; i < Dots.Length; i++)
+            {
+                bool hasRow = Dots[i].X == row;
+                bool hasCol = Dots[i].Y == cell;
+
+                if (hasRow && hasCol)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
     }
 }
