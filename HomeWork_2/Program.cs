@@ -9,14 +9,11 @@ namespace HomeWork_2
             int cols = ReadInt("Enter size: ");
             int rows = cols / 2;
 
-            var activeDots = new Cell[4];
-            activeDots[0] = new Cell(3, 4);
-            activeDots[1] = new Cell(4, 4);
-            activeDots[2] = new Cell(5, 4);
-            activeDots[3] = new Cell(5, 3);
+            var controller = new Controller(100, cols, rows);
+            controller.StartGame();
 
-            var field = new PayField(cols, rows, activeDots);
-            field.Render();
+            Console.ReadLine();
+            controller.StopGame();
         }
 
         static private int ReadInt(string dispalayText = "")

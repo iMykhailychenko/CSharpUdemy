@@ -3,13 +3,13 @@
 namespace HomeWork_2
 {
 
-    public class PayField
+    public class GameField
     {
         public int Cols { get; private set; }
         public int Rows { get; private set; }
         public Cell[] Dots { get; set; }
 
-        public PayField(int cols, int rows, Cell[] dots)
+        public GameField(int cols, int rows, Cell[] dots)
         {
             Cols = cols;
             Rows = rows;
