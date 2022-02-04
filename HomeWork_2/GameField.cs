@@ -5,8 +5,8 @@ namespace HomeWork_2
 
     public class GameField
     {
-        public int Cols { get; private set; }
-        public int Rows { get; private set; }
+        public int Cols { get; }
+        public int Rows { get; }
         public Cell[] Dots { get; set; }
 
         public GameField(int cols, int rows, Cell[] dots)
